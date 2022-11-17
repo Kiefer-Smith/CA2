@@ -32,7 +32,11 @@ include('includes/header.php');
 
             <label>List Price:</label>
             <input type="input" name="price">
-            <br>        
+            <br>    
+            
+            <label>Description:</label>
+            <input type="input" name="Description">
+            <br>      
             
             <label>Image:</label>
             <input type="file" name="image" accept="image/*" />
