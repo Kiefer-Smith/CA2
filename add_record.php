@@ -4,7 +4,7 @@
 $category_id = filter_input(INPUT_POST, 'category_id', FILTER_VALIDATE_INT);
 $name = filter_input(INPUT_POST, 'name');
 $price = filter_input(INPUT_POST, 'price', FILTER_VALIDATE_FLOAT);
-$description = filter_input(INPUT_POST, 'Description');
+$description = filter_input(INPUT_POST, 'description');
 
 // Validate inputs
 if ($category_id == null || $category_id == false ||

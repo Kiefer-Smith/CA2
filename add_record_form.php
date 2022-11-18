@@ -35,7 +35,7 @@ include('includes/header.php');
             <br>    
             
             <label>Description:</label>
-            <input type="input" name="Description">
+            <input type="input" name="description">
             <br>      
             
             <label>Image:</label>
