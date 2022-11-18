@@ -40,7 +40,7 @@ include('includes/header.php');
 
             <label>Description:</label>
             <input type="input" name="description"
-                   value="<?php echo $records['description']; ?>">
+                   value="<?php echo $records['Description']; ?>">
             <br>
 
             <label>Image:</label>
