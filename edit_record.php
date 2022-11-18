@@ -1,14 +1,14 @@
 <?php
 
 // Get the record data
-$record_id = filter_input(INPUT_POST, 'record_id', FILTER_VALIDATE_INT);
+$product_id = filter_input(INPUT_POST, 'record_id', FILTER_VALIDATE_INT);
 $category_id = filter_input(INPUT_POST, 'category_id', FILTER_VALIDATE_INT);
 $name = filter_input(INPUT_POST, 'name');
 $price = filter_input(INPUT_POST, 'price', FILTER_VALIDATE_FLOAT);
 $description = filter_input(INPUT_POST, 'description');
 
 // Validate inputs
-if ($record_id == NULL || $record_id == FALSE || $category_id == NULL ||
+if ($product_id == NULL || $product_id == FALSE || $category_id == NULL ||
 $category_id == FALSE || empty($name) ||
 $price == NULL || $price == FALSE || $description == NULL ) {
 $error = "Invalid record data. Check all fields and try again.";
@@ -62,7 +62,7 @@ $statement->bindValue(':name', $name);
 $statement->bindValue(':price', $price);
 $statement->bindValue(':description', $description);
 $statement->bindValue(':image', $image);
-$statement->bindValue(':record_id', $record_id);
+$statement->bindValue(':record_id', $product_id);
 $statement->execute();
 $statement->closeCursor();
 

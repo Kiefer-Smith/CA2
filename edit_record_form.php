@@ -1,12 +1,12 @@
 <?php
 require('database.php');
 
-$record_id = filter_input(INPUT_POST, 'record_id', FILTER_VALIDATE_INT);
+$product_id = filter_input(INPUT_POST, 'record_id', FILTER_VALIDATE_INT);
 $query = 'SELECT *
           FROM Products
           WHERE recordID = :record_id';
 $statement = $db->prepare($query);
-$statement->bindValue(':record_id', $record_id);
+$statement->bindValue(':record_id', $product_id);
 $statement->execute();
 $Products = $statement->fetch(PDO::FETCH_ASSOC);
 $statement->closeCursor();
