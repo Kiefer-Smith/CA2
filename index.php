@@ -88,7 +88,7 @@ value="<?php echo $Product['categoryID']; ?>">
 <td><form action="edit_record_form.php" method="post"
 id="delete_record_form">
 <input type="hidden" name="Product_id"
-value="<?php echo $Product['pFroductID']; ?>">
+value="<?php echo $Product['productID']; ?>">
 <input type="hidden" name="category_id"
 value="<?php echo $Product['categoryID']; ?>">
 <input type="submit" value="Edit">
