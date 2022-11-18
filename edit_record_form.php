@@ -1,12 +1,12 @@
 <?php
 require('database.php');
 
-$product_id = filter_input(INPUT_POST, 'record_id', FILTER_VALIDATE_INT);
+$product_id = filter_input(INPUT_POST, 'product_id', FILTER_VALIDATE_INT);
 $query = 'SELECT *
           FROM Products
-          WHERE recordID = :record_id';
+          WHERE productID = :product_id';
 $statement = $db->prepare($query);
-$statement->bindValue(':record_id', $product_id);
+$statement->bindValue(':product_id', $product_id);
 $statement->execute();
 $Products = $statement->fetch(PDO::FETCH_ASSOC);
 $statement->closeCursor();
@@ -20,8 +20,8 @@ include('includes/header.php');
         <form action="edit_record.php" method="post" enctype="multipart/form-data"
               id="add_record_form">
             <input type="hidden" name="original_image" value="<?php echo $Products['image']; ?>" />
-            <input type="hidden" name="record_id"
-                   value="<?php echo $Products['recordID']; ?>">
+            <input type="hidden" name="product_id"
+                   value="<?php echo $Products['productID']; ?>">
 
             <label>Category ID:</label>
             <input type="category_id" name="category_id"
