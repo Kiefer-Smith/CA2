@@ -31,7 +31,7 @@ $statement2->closeCursor();
 // Get Products for selected category
 $queryRecords = "SELECT * FROM Products
 WHERE categoryID = :category_id
-ORDER BY ProductID";
+ORDER BY productID";
 $statement3 = $db->prepare($queryRecords);
 $statement3->bindValue(':category_id', $category_id);
 $statement3->execute();
@@ -76,10 +76,10 @@ include('includes/header.php');
 <td><img src="image_uploads/<?php echo $Product['image']; ?>" width="100px" height="100px" /></td>
 <td><?php echo $Product['name']; ?></td>
 <td><?php echo $Product['price']; ?></td>
-<td><?php echo $Product['Description']; ?></td>
+<td><?php echo $Product['description']; ?></td>
 <td><form action="delete_product.php" method="post"
 id="delete_record_form">
-<input type="hidden" name="Product_id"
+<input type="hidden" name="product_id"
 value="<?php echo $Product['productID']; ?>">
 <input type="hidden" name="category_id"
 value="<?php echo $Product['categoryID']; ?>">
@@ -87,7 +87,7 @@ value="<?php echo $Product['categoryID']; ?>">
 </form></td>
 <td><form action="edit_record_form.php" method="post"
 id="delete_record_form">
-<input type="hidden" name="Product_id"
+<input type="hidden" name="product_id"
 value="<?php echo $Product['productID']; ?>">
 <input type="hidden" name="category_id"
 value="<?php echo $Product['categoryID']; ?>">

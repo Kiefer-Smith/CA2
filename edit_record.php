@@ -1,7 +1,7 @@
 <?php
 
 // Get the record data
-$product_id = filter_input(INPUT_POST, 'record_id', FILTER_VALIDATE_INT);
+$product_id = filter_input(INPUT_POST, 'product_id', FILTER_VALIDATE_INT);
 $category_id = filter_input(INPUT_POST, 'category_id', FILTER_VALIDATE_INT);
 $name = filter_input(INPUT_POST, 'name');
 $price = filter_input(INPUT_POST, 'price', FILTER_VALIDATE_FLOAT);
@@ -55,14 +55,14 @@ name = :name,
 price = :price,
 description = :description,
 image = :image
-WHERE productID = :record_id';
+WHERE productID = :product_id';
 $statement = $db->prepare($query);
 $statement->bindValue(':category_id', $category_id);
 $statement->bindValue(':name', $name);
 $statement->bindValue(':price', $price);
 $statement->bindValue(':description', $description);
 $statement->bindValue(':image', $image);
-$statement->bindValue(':record_id', $product_id);
+$statement->bindValue(':product_id', $product_id);
 $statement->execute();
 $statement->closeCursor();
 
