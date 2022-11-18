@@ -44,10 +44,10 @@ INSERT INTO `categories` (`categoryID`, `categoryName`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `records`
+-- Table structure for table `Products`
 --
 
-CREATE TABLE `records` (
+CREATE TABLE `Products` (
   `recordID` int(11) NOT NULL,
   `categoryID` int(11) NOT NULL,
   `name` varchar(255) NOT NULL,
@@ -56,10 +56,10 @@ CREATE TABLE `records` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `records`
+-- Dumping data for table `Products`
 --
 
-INSERT INTO `records` (`recordID`, `categoryID`, `name`, `price`, `image`) VALUES
+INSERT INTO `Products` (`recordID`, `categoryID`, `name`, `price`, `image`) VALUES
 (1, 1, 'Some text', '12.00', '644471.jpg'),
 (2, 1, 'Some text', '15.00', '233012.jpg'),
 (3, 1, 'Some text', '18.00', '329484.jpg'),
@@ -84,9 +84,9 @@ ALTER TABLE `categories`
   ADD PRIMARY KEY (`categoryID`);
 
 --
--- Indexes for table `records`
+-- Indexes for table `Products`
 --
-ALTER TABLE `records`
+ALTER TABLE `Products`
   ADD PRIMARY KEY (`recordID`);
 
 --
@@ -100,9 +100,9 @@ ALTER TABLE `categories`
   MODIFY `categoryID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
--- AUTO_INCREMENT for table `records`
+-- AUTO_INCREMENT for table `Products`
 --
-ALTER TABLE `records`
+ALTER TABLE `Products`
   MODIFY `recordID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 

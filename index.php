@@ -28,14 +28,14 @@ $statement2->execute();
 $categories = $statement2->fetchAll();
 $statement2->closeCursor();
 
-// Get records for selected category
-$queryRecords = "SELECT * FROM records
+// Get Products for selected category
+$queryRecords = "SELECT * FROM Products
 WHERE categoryID = :category_id
 ORDER BY recordID";
 $statement3 = $db->prepare($queryRecords);
 $statement3->bindValue(':category_id', $category_id);
 $statement3->execute();
-$records = $statement3->fetchAll();
+$Products = $statement3->fetchAll();
 $statement3->closeCursor();
 ?>
 <div class="container">
@@ -60,7 +60,7 @@ include('includes/header.php');
 </aside>
 
 <section>
-<!-- display a table of records -->
+<!-- display a table of Products -->
 <h2><?php echo $category_name; ?></h2>
 <table>
 <tr>
@@ -71,7 +71,7 @@ include('includes/header.php');
 <th>Delete</th>
 <th>Edit</th>
 </tr>
-<?php foreach ($records as $record) : ?>
+<?php foreach ($Products as $record) : ?>
 <tr>
 <td><img src="image_uploads/<?php echo $record['image']; ?>" width="100px" height="100px" /></td>
 <td><?php echo $record['name']; ?></td>
