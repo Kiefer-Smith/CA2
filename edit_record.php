@@ -55,7 +55,7 @@ name = :name,
 price = :price,
 description = :description,
 image = :image
-WHERE recordID = :record_id';
+WHERE productID = :record_id';
 $statement = $db->prepare($query);
 $statement->bindValue(':category_id', $category_id);
 $statement->bindValue(':name', $name);
