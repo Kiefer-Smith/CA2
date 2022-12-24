@@ -33,9 +33,9 @@ include('includes/header.php');
             <label>List Price:</label>
             <input type="input" name="price">
             <br>    
-            
+ The description must have more than 8 letters            
             <label>Description:</label>
-            <input type="input" name="description">
+            <input type="input" name="description" pattern="[A-Za-z]{3}" placeholder="8 letters or more">
             <br>      
             
             <label>Image:</label>
