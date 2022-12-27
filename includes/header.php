@@ -8,8 +8,9 @@
 <body>
 <header><h1>My PHP CRUD app</h1></header>
 <div class="navbar">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
+  <a class="active" href="index.php">Home</a>
+  <a href="add_record_form.php">Add record</a>
+  <a href="category_list.php">Add category</a>
   <div class="dropdown">
     <button class="dropbtn">Dropdown
       <i class="fa fa-caret-down"></i>
