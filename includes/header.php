@@ -2,14 +2,13 @@
 <head>
 <title>PC Station</title>
 <link rel="stylesheet" type="text/css" href="css/mystyle.css">
-<link rel="shortcut icon" href="images_uploads/logo.png">
 </head>
 
 <!-- the body section -->
 <body>
 <div class="header">
 
-<img src="image_uploads/logo.png" alt="logo" />
+
 <header><h1>PC Station</h1></header></div>
 <div class="navbar">
   <a class="active" href="http://localhost/CA2/?category_id=18">Home</a>
