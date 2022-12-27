@@ -10,6 +10,13 @@ header h1 {
   color: black;
 }
 
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: rgb(255, 255, 255);
+}
+
 nav ul {
   list-style-type: none;
   margin-left: 0;

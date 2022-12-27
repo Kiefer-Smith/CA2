@@ -1,24 +1,28 @@
 <!-- the head section -->
 <head>
-<title>My PHP CRUD App</title>
+<title>PC Station</title>
 <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+<link rel="shortcut icon" href="images_uploads/logo.png">
 </head>
 
 <!-- the body section -->
 <body>
-<header><h1>My PHP CRUD app</h1></header>
+<div class="header">
+
+<img src="image_uploads/logo.png" alt="logo" />
+<header><h1>PC Station</h1></header></div>
 <div class="navbar">
   <a class="active" href="index.php">Home</a>
   <a href="add_record_form.php">Add record</a>
   <a href="category_list.php">Add category</a>
   <div class="dropdown">
-    <button class="dropbtn">Dropdown
+    <button class="dropbtn">PCs
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+      <a href="#">Office PCs</a>
+      <a href="#">Gaming PCs</a>
+      <a href="#">Laptops</a>
     </div>
   </div>
 </div>
