@@ -3,18 +3,8 @@
 
 
 
-aside {
-    float: left;
-    width: 150px;
-}
-nav ul {
-    list-style-type: none;
-    margin-left: 0;
-    padding-left: 0;
-}
-nav ul li {
-    padding-bottom: 0.5em;
-}
+
+
 section {
     float: left;
     width: 800PX;

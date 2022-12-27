@@ -9,6 +9,16 @@ header h1 {
   color: black;
 }
 
+nav ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+nav ul li {
+  padding-bottom: 0.5em;
+}
+
 body {
   background-color: #ccc;
 }
