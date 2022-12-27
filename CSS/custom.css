@@ -21,4 +21,9 @@ body {
   background-color: white;
   border: 1px solid black;
   padding: 0.5em 2em;
+}
+
+aside {
+  float: left;
+  width: 150px;
 }/*# sourceMappingURL=custom.css.map */
