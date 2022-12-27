@@ -1,4 +1,13 @@
-header {
-    background-color: aqua;
+body {
+  background-color: #ccc;
 }
-/*# sourceMappingURL=mystyle.css.map */
+
+.container {
+  /* margin-top: 0; */
+  font-family: Arial, Helvetica, sans-serif;
+  width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid black;
+  padding: 0.5em 2em;
+}/*# sourceMappingURL=mystyle.css.map */
