@@ -12,7 +12,7 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                <h1>PC Station</h1>
+                <h1 style="color:white;">PC Station</h1>
                     </a>
                 </li>
                 <li>
