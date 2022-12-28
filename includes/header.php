@@ -6,24 +6,44 @@
 
 <!-- the body section -->
 <body>
-<div class="header">
+<div id="wrapper">
 
-
-<header><h1>PC Station</h1></header></div>
-<div class="navbar">
-  <a class="active" href="http://localhost/CA2/?category_id=18">Home</a>
-  <a href="add_record_form.php">Add record</a>
-  <a href="category_list.php">Add category</a>
-  <div class="dropdown">
-    <button class="dropbtn">PCs
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="http://localhost/CA2/?category_id=18">Office PCs</a>
-      <a href="http://localhost/CA2/?category_id=19">Gaming PCs</a>
-      <a href="http://localhost/CA2/?category_id=20">Laptops</a>
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                <h1>PC Station</h1>
+                    </a>
+                </li>
+                <li>
+                <a class="active" href="http://localhost/CA2/?category_id=18">Home</a>
+                </li>
+                <li>
+                <a href="add_record_form.php">Add record</a>
+                </li>
+                <li>
+                <a href="category_list.php">Add category</a>
+                </li>
+                <li>
+                <a href="category_list.php">PCs</a>
+                </li>
+                <li>
+                <a href="http://localhost/CA2/?category_id=18">Office PCs</a>
+                </li>
+                <li>
+                 <a href="http://localhost/CA2/?category_id=19">Gaming PCs</a>
+                </li>
+                <li>
+                <a href="http://localhost/CA2/?category_id=20">Laptops</a>   
+                </li>
+                <li>
+                <a href="http://localhost/CA2/?category_id=21">PC Deals</a>
+                </li>
+                <li>
+                <a href="http://localhost/CA2/?category_id=22">PC Components</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
     </div>
-  </div>
-  <a href="http://localhost/CA2/?category_id=21">PC Deals</a>
-  <a href="http://localhost/CA2/?category_id=22">PC Components</a>
-</div>
+    <!-- /#wrapper -->

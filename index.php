@@ -43,7 +43,6 @@ $statement3->closeCursor();
 include('includes/header.php');
 ?>
 <h1>Product List</h1>
-
 <aside>
 <!-- display a list of categories -->
 <h2>Categories</h2>
