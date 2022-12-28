@@ -223,7 +223,7 @@ body {
 #page-content-wrapper {
   width: 100%;
   position: absolute;
-  padding: 15px;
+  padding: 215px;
 }
 
 #wrapper.toggled #page-content-wrapper {
@@ -235,7 +235,7 @@ body {
 .sidebar-nav {
   position: absolute;
   top: 0;
-  width: 450px;
+  width: 250px;
   margin: 0;
   padding: 0;
   list-style: none;

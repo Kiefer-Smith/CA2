@@ -25,9 +25,6 @@
                 <a href="category_list.php">Add category</a>
                 </li>
                 <li>
-                <a href="category_list.php">PCs</a>
-                </li>
-                <li>
                 <a href="http://localhost/CA2/?category_id=18">Office PCs</a>
                 </li>
                 <li>
