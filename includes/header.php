@@ -12,7 +12,8 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                <h1 style="color:white;">PC Station</h1>
+                <img src="image_uploads/logo.png" 
+                class="centerImage" alt="CH Logo" height="110" width="160"></img>
                     </a>
                 </li>
                 <li>
