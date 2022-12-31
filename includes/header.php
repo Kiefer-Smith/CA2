@@ -13,7 +13,7 @@
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
                 <img src="image_uploads/logo.png" 
-                class="centerImage" alt="CH Logo" height="110" width="160"></img>
+                class="centerImage" alt="CH Logo" height="120" width="160"></img>
                     </a>
                 </li>
                 <li>
