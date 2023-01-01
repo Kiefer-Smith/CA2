@@ -808,7 +808,7 @@ Touch Pearl White</a>
         </div>
         <div class="card-body">
           <div class="clearfix mb-3">
-            <span class="float-start badge rounded-pill bg-success">€3310</span>
+            <span class="float-start badge rounded-pill bg-success">Was €1770 now €1110 </span>
  
             <span class="float-end"><a href="#" class="small text-muted text-uppercase aff-link">reviews</a></span>
           </div>
@@ -842,6 +842,189 @@ Memory slots
 Storage
 
 512 GB WD Black PCIe® NVMe™ TLC M.2 SSD</a>
+          </h5>
+ 
+          <div class="d-grid gap-2 my-4">
+ 
+            <a href="#" class="btn btn-warning bold-btn">add to cart</a>
+ 
+          </div>
+          
+          <div class="clearfix mb-1">
+ 
+            <span class="float-start"><a href="#"><i class="fas fa-question-circle"></i></a></span>
+ 
+            <span class="float-end">
+              
+<i class="far fa-heart" style="cursor: pointer"></i>
+ 
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h5 style="text-align:center">PC Components</h5>
+
+
+<div class="container-fluid bg-trasparent my-4 p-3" style="position: relative">
+  <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+    <div class="col hp">
+      <div class="card h-100 shadow-sm">
+        <a href="#">
+          <img src="image_uploads/aurora supreme.png" class="card-img-top" alt="product.title" />
+        </a>
+ 
+        <div class="label-top shadow-sm">
+          <a class="text-white" href="#">Intel</a>
+        </div>
+        <div class="card-body">
+          <div class="clearfix mb-3">
+            <span class="float-start badge rounded-pill bg-success">€800</span>
+ 
+            <span class="float-end"><a href="#" class="small text-muted text-uppercase aff-link">reviews</a></span>
+          </div>
+          <h5 class="card-title">
+            <a target="_blank" href="#">AURORA SUPREME
+                 Intel® Core™ i3-10100
+            ASUS® PRIME H510M-A
+            8GB Corsair VENGEANCE 3200MHz
+            2GB GEFORCE GT 1030 - DVI, HDMI
+            256GB PCS PCIe M.2 SSD
+            256GB PCS 2.5" SSD</a>
+          </h5>
+ 
+          <div class="d-grid gap-2 my-4">
+ 
+            <a href="#" class="btn btn-warning bold-btn">add to cart</a>
+ 
+          </div>
+          <div class="clearfix mb-1">
+ 
+            <span class="float-start"><a href="#"><i class="fas fa-question-circle"></i></a></span>
+ 
+            <span class="float-end">
+              <i class="far fa-heart" style="cursor: pointer"></i>
+ 
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col hp">
+      <div class="card h-100 shadow-sm">
+        <a href="#">
+          <img src="image_uploads/dimension spark.png" class="card-img-top" alt="product.title" />
+        </a>
+ 
+        <div class="label-top shadow-sm">
+          <a class="text-white" href="#">Intel</a>
+        </div>
+        <div class="card-body">
+          <div class="clearfix mb-3">
+            <span class="float-start badge rounded-pill bg-success">€650</span>
+ 
+            <span class="float-end"><a href="#" class="small text-muted text-uppercase aff-link">reviews</a></span>
+          </div>
+          <h5 class="card-title">
+            <a target="_blank" href="#">
+            DIMENSION SPARK
+
+            Intel® Core™ i3-10100
+            GIGABYTE H510M H
+            8GB Corsair VENGEANCE 3200MHz
+            2GB GEFORCE GT 1030 - DVI, HDMI
+            256GB PCS PCIe M.2 SSD
+            256GB PCS 2.5" SSD</a>
+          </h5>
+ 
+          <div class="d-grid gap-2 my-4">
+ 
+            <a href="#" class="btn btn-warning bold-btn">add to cart</a>
+ 
+          </div>
+          <div class="clearfix mb-1">
+ 
+            <span class="float-start"><a href="#"><i class="fas fa-question-circle"></i></a></span>
+ 
+            <span class="float-end">
+              <i class="far fa-heart" style="cursor: pointer"></i>
+ 
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col hp">
+      <div class="card h-100 shadow-sm">
+        <a href="#">
+          <img src="image_uploads/Fusion Goliath.png" class="card-img-top" alt="product.title" />
+        </a>
+ 
+        <div class="label-top shadow-sm">
+          <a class="text-white" href="#">AMD</a>
+        </div>
+        <div class="card-body">
+          <div class="clearfix mb-3">
+            <span class="float-start badge rounded-pill bg-success">€950</span>
+ 
+            <span class="float-end"><a href="#" class="small text-muted text-uppercase aff-link">reviews</a></span>
+          </div>
+          <h5 class="card-title">
+            <a target="_blank" href="#">
+FUSION GOLIATH
+
+AMD Ryzen 9 7950X
+ASUS® TUF GAMING X670E-PLUS WIFI
+32GB Corsair VENGEANCE 4800MHz
+24GB AMD RADEON™ RX 7900 XTX
+1TB SEAGATE FIRECUDA 530 GEN 4
+Windows 11 Home</a>
+          </h5>
+ 
+          <div class="d-grid gap-2 my-4">
+ 
+            <a href="#" class="btn btn-warning bold-btn">add to cart</a>
+ 
+          </div>
+          <div class="clearfix mb-1">
+ 
+            <span class="float-start"><a href="#"><i class="fas fa-question-circle"></i></a></span>
+ 
+            <span class="float-end">
+              <i class="far fa-heart" style="cursor: pointer"></i>
+ 
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col hp">
+      <div class="card h-100 shadow-sm">
+        <a href="#">
+          <img src="image_uploads/aurora ultra.png" class="card-img-top" alt="product.title" />
+        </a>
+        <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+        <div class="label-top shadow-sm">
+          <a class="text-white" href="#">Intel</a>
+        </div>
+        <div class="card-body">
+          <div class="clearfix mb-3">
+            <span class="float-start badge rounded-pill bg-success">€850</span>
+ 
+            <span class="float-end"><a href="#" class="small text-muted text-uppercase aff-link">reviews</a></span>
+          </div>
+          <h5 class="card-title">
+            <a target="_blank" href="#">AURORA ULTRA
+
+Intel® Core™ i3-10100
+GIGABYTE H510M H
+8GB Corsair VENGEANCE 3200MHz
+2GB GEFORCE GT 1030 - DVI, HDMI
+512GB SOLIDIGM P41+ GEN 4 M.2
+2TB SEAGATE BARRACUDA HDD</a>
           </h5>
  
           <div class="d-grid gap-2 my-4">
