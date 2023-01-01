@@ -49,9 +49,9 @@ include('includes/header.php');
     
 
 
-<section>
+<!-- <section> -->
 <!-- display a table of Products -->
-<h2><?php echo $category_name; ?></h2>
+<!-- <h2><?php echo $category_name; ?></h2>
 <table>
 <tr>
 <th>Image</th>
@@ -85,7 +85,10 @@ value="<?php echo $Product['categoryID']; ?>">
 </form></td>
 </tr>
 <?php endforeach; ?>
-</table>
+</table>-->
+
+
+
 
 </section>
 <?php
