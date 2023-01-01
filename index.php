@@ -43,7 +43,7 @@ $statement3->closeCursor();
 include('includes/header.php');
 ?>
 <h1 style="text-align:center">Product List</h1>
-<h2 style="text-align:center">Office PCs</h>
+<h2 style="text-align:center">Office PCs</h2>
 
 
 <div class="container-fluid bg-trasparent my-4 p-3" style="position: relative">
@@ -412,6 +412,221 @@ ASUS® TUF GAMING Z690-PLUS WIFI D4
 </div>
  
 <h3 style="text-align:center">Laptops</h3>
+
+
+<div class="container-fluid bg-trasparent my-4 p-3" style="position: relative">
+  <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+    <div class="col hp">
+      <div class="card h-100 shadow-sm">
+        <a href="#">
+          <img src="image_uploads/elimina17.png" class="card-img-top" alt="product.title" />
+        </a>
+ 
+        <div class="label-top shadow-sm">
+          <a class="text-white" href="#">Intel</a>
+        </div>
+        <div class="card-body">
+          <div class="clearfix mb-3">
+            <span class="float-start badge rounded-pill bg-success">€1070</span>
+ 
+            <span class="float-end"><a href="#" class="small text-muted text-uppercase aff-link">reviews</a></span>
+          </div>
+          <h5 class="card-title">
+            <a target="_blank" href="#">
+            17,3" ELIMINA®
+
+
+
+Intel® Core™ i7 14-Core 12700H / i5 12-Core 12500H Processors
+GeForce GTX 1650 / RTX 3050 / 3050 Ti / 3060
+144Hz FHD Panel (1920 x 1080), 72% NTSC
+Multi-Colour Backlit Keyboard
+SOUND BLASTER™ Cinema
+SuperSpeed USB 3.2
+HDMI Output Connection
+Mini Display Port
+Trusted Platform Module (TPM)
+Array Microphone Configuration
+1.0MP Webcam
+Wireless Fitted as Standard</a>
+          </h5>
+ 
+          <div class="d-grid gap-2 my-4">
+ 
+            <a href="#" class="btn btn-warning bold-btn">add to cart</a>
+ 
+          </div>
+          <div class="clearfix mb-1">
+ 
+            <span class="float-start"><a href="#"><i class="fas fa-question-circle"></i></a></span>
+ 
+            <span class="float-end">
+              <i class="far fa-heart" style="cursor: pointer"></i>
+ 
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col hp">
+      <div class="card h-100 shadow-sm">
+        <a href="#">
+          <img src="image_uploads/valeon-headline.png" class="card-img-top" alt="product.title" />
+        </a>
+ 
+        <div class="label-top shadow-sm">
+          <a class="text-white" href="#">AMD</a>
+        </div>
+        <div class="card-body">
+          <div class="clearfix mb-3">
+            <span class="float-start badge rounded-pill bg-success">€1800</span>
+ 
+            <span class="float-end"><a href="#" class="small text-muted text-uppercase aff-link">reviews</a></span>
+          </div>
+          <h5 class="card-title">
+            <a target="_blank" href="#">
+            16,1" VALEON®
+
+
+
+AMD® Ryzen™ CPUs
+8GB AMD RADEON™ RX 6650M XT
+165Hz QHD IPS Panel (2560 x 1440), sRGB 100%
+Aluminium Chassis
+Ultra Narrow Bezel Design
+High Capacity 80Wh Battery
+Per-Key RGB Keyboard
+SuperSpeed USB 3.2
+Fingerprint Scanner
+HDMI 2.1 (4K 60HZ)
+2.0MP Webcam
+Wireless Fitted as Standard</a>
+          </h5>
+ 
+          <div class="d-grid gap-2 my-4">
+ 
+            <a href="#" class="btn btn-warning bold-btn">add to cart</a>
+ 
+          </div>
+          <div class="clearfix mb-1">
+ 
+            <span class="float-start"><a href="#"><i class="fas fa-question-circle"></i></a></span>
+ 
+            <span class="float-end">
+              <i class="far fa-heart" style="cursor: pointer"></i>
+ 
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col hp">
+      <div class="card h-100 shadow-sm">
+        <a href="#">
+          <img src="image_uploads/1.png" class="card-img-top" alt="product.title" />
+        </a>
+ 
+        <div class="label-top shadow-sm">
+          <a class="text-white" href="#">Intel</a>
+        </div>
+        <div class="card-body">
+          <div class="clearfix mb-3">
+            <span class="float-start badge rounded-pill bg-success">€400</span>
+ 
+            <span class="float-end"><a href="#" class="small text-muted text-uppercase aff-link">reviews</a></span>
+          </div>
+          <h5 class="card-title">
+            <a target="_blank" href="#">
+
+            14,1" GEMINI
+
+
+Intel® Celeron™ N-Series CPUs
+Intel Integrated Graphics
+60Hz FHD IPS Panel (1920 x 1080)
+Silver Aluminium Chassis
+SUPERSPEED USB 3.0
+Micro HDMI Output
+Narrow Bezel Design
+720P HD Webcam
+Wireless Fitted as Standard
+</a>
+          </h5>
+ 
+          <div class="d-grid gap-2 my-4">
+ 
+            <a href="#" class="btn btn-warning bold-btn">add to cart</a>
+ 
+          </div>
+          <div class="clearfix mb-1">
+ 
+            <span class="float-start"><a href="#"><i class="fas fa-question-circle"></i></a></span>
+ 
+            <span class="float-end">
+              <i class="far fa-heart" style="cursor: pointer"></i>
+ 
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col hp">
+      <div class="card h-100 shadow-sm">
+        <a href="#">
+          <img src="image_uploads/2.png" class="card-img-top" alt="product.title" />
+        </a>
+        <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+        <div class="label-top shadow-sm">
+          <a class="text-white" href="#">Intel</a>
+        </div>
+        <div class="card-body">
+          <div class="clearfix mb-3">
+            <span class="float-start badge rounded-pill bg-success">€2225</span>
+ 
+            <span class="float-end"><a href="#" class="small text-muted text-uppercase aff-link">reviews</a></span>
+          </div>
+          <h5 class="card-title">
+            <a target="_blank" href="#">
+            17,3" VYPER®
+
+
+
+Intel® Core™ i9 14-Core Processor 12900H
+Intel® Arc™ A770M
+165Hz QHD Panel (2560 x 1440), DCI-P3
+Thunderbolt™ 4
+DDR5 RAM
+Per-Key RGB Keyboard
+Sound Blaster® Atlas
+SuperSpeed USB 3.2
+HDMI Output Connection
+Mini Display Port
+Windows Hello</a>
+          </h5>
+ 
+          <div class="d-grid gap-2 my-4">
+ 
+            <a href="#" class="btn btn-warning bold-btn">add to cart</a>
+ 
+          </div>
+          
+          <div class="clearfix mb-1">
+ 
+            <span class="float-start"><a href="#"><i class="fas fa-question-circle"></i></a></span>
+ 
+            <span class="float-end">
+              
+<i class="far fa-heart" style="cursor: pointer"></i>
+ 
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h4 style="text-align:center">PC Deals</h4>
 
 
 <div class="container-fluid bg-trasparent my-4 p-3" style="position: relative">
