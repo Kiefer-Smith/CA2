@@ -1,8 +1,5 @@
 /* Here is where the variables start */
 
-body {
-    background-color: rgb(74, 72, 72);
-}
 
 ul {
     margin: 0 0 1em 0;
@@ -86,8 +83,9 @@ br {
 }
  
 .container-fluid {
-    max-width: 1050px;
- 
+    max-width: 1100px;
+    background-color: rgb(1, 21, 111);
+     
 }
  
 .card {
@@ -107,7 +105,7 @@ br {
  
 .card h5 {
     overflow: hidden;
-    height: 55px;
+    height: 155px;
     font-weight: 300;
     font-size: 1rem;
 }
@@ -137,7 +135,7 @@ br {
  
 /* Centered text */
 .label-top {
-    position: absolute;
+    position: center;
     background-color: var(--label-index);
     color: #fff;
     top: 8px;
