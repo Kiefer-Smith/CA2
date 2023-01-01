@@ -2,6 +2,7 @@
 <head>
 <title>PC Station</title>
 <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css'>
 </head>
 
 <!-- the body section -->
@@ -20,10 +21,10 @@
                 <a class="active" href="http://localhost/CA2/?category_id=18">Home</a>
                 </li>
                 <li>
-                <a href="add_record_form.php">Add record</a>
+               <!-- <a href="add_record_form.php">Add record</a>-->
                 </li>
                 <li>
-                <a href="category_list.php">Add category</a>
+               <!-- <a href="category_list.php">Add category</a> -->
                 </li>
                 <li>
                 <a href="http://localhost/CA2/?category_id=18">Office PCs</a>
