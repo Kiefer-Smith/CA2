@@ -3,6 +3,7 @@
 <title>PC Station</title>
 <link rel="stylesheet" type="text/css" href="css/mystyle.css">
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css'>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
 <!-- the body section -->
@@ -42,7 +43,7 @@
                 <a href="http://localhost/CA2/?category_id=22">PC Components</a>
                 </li>
                 <li>
-                <a href="http://localhost/CA2/?category_id=22">Contact Us</a>
+                <a href="http://localhost/CA2/Contact.php">Contact Us</a>
                 </li>
             </ul>
         </div>

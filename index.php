@@ -1083,4 +1083,4 @@ value="<?php echo $Product['categoryID']; ?>">
 <!--</section>
 <?php
 include('includes/footer.php');
-?>-->
+?>
