@@ -41,6 +41,9 @@
                 <li>
                 <a href="http://localhost/CA2/?category_id=22">PC Components</a>
                 </li>
+                <li>
+                <a href="http://localhost/CA2/?category_id=22">Contact Us</a>
+                </li>
             </ul>
         </div>
         <!-- /#sidebar-wrapper -->
