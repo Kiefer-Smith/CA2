@@ -249,7 +249,7 @@
             <div class="col-md-12">
                 <div class="form-group">
                     <label for="form_message">Message *</label>
-                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Write message here" rows="4" required="required" data-error="Please, leave us a message."></textarea>
                     <div class="help-block with-errors"></div>
                 </div>
             </div>
@@ -292,4 +292,6 @@ $fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'e
 
 // if you are not debugging and don't need error reporting, turn this off by error_reporting(0);
 error_reporting(E_ALL & ~E_NOTICE);
+
+
 

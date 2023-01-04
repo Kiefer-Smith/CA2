@@ -1080,7 +1080,7 @@ value="<?php echo $Product['categoryID']; ?>">
 
 
 
-<!--</section>
+</section>
 <?php
 include('includes/footer.php');
 ?>
