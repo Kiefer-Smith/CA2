@@ -38,7 +38,7 @@ $statement3->execute();
 $Products = $statement3->fetchAll();
 $statement3->closeCursor();
 ?>
-<div class="container">
+<div class="container" style="background-color:#0c0c0c">
 <?php
 include('includes/header.php');
 ?>
@@ -49,7 +49,7 @@ include('includes/header.php');
 <div class="container-fluid bg-trasparent my-4 p-3" style="position: relative">
   <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
     <div class="col hp">
-      <div class="card h-100 shadow-sm">
+      <div class="card h-100 shadow-sm" style="background-color: #0c0c0c">
         <a href="#">
           <img src="image_uploads/aurora supreme.png" class="card-img-top" alt="product.title" />
         </a>
@@ -59,7 +59,7 @@ include('includes/header.php');
         </div>
         <div class="card-body">
           <div class="clearfix mb-3">
-            <span class="float-start badge rounded-pill bg-success">€800</span>
+            <span class="float-start badge rounded-pill bg-success" style="background-color:red">€800</span>
  
             <span class="float-end"><a href="#" class="small text-muted text-uppercase aff-link">reviews</a></span>
           </div>
@@ -92,7 +92,7 @@ include('includes/header.php');
     </div>
     
     <div class="col hp">
-      <div class="card h-100 shadow-sm">
+      <div class="card h-100 shadow-sm" style="background-color: #0c0c0c">
         <a href="#">
           <img src="image_uploads/dimension spark.png" class="card-img-top" alt="product.title" />
         </a>
@@ -136,7 +136,7 @@ include('includes/header.php');
       </div>
     </div>
     <div class="col hp">
-      <div class="card h-100 shadow-sm">
+      <div class="card h-100 shadow-sm" style="background-color: #0c0c0c">
         <a href="#">
           <img src="image_uploads/Fusion Goliath.png" class="card-img-top" alt="product.title" />
         </a>
@@ -180,7 +180,7 @@ Windows 11 Home</a>
       </div>
     </div>
     <div class="col hp">
-      <div class="card h-100 shadow-sm">
+      <div class="card h-100 shadow-sm" style="background-color: #0c0c0c">
         <a href="#">
           <img src="image_uploads/aurora ultra.png" class="card-img-top" alt="product.title" />
         </a>
@@ -234,7 +234,7 @@ GIGABYTE H510M H
 <div class="container-fluid bg-trasparent my-4 p-3" style="position: relative">
   <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
     <div class="col hp">
-      <div class="card h-100 shadow-sm">
+      <div class="card h-100 shadow-sm" style="background-color: #0c0c0c">
         <a href="#">
           <img src="image_uploads/pulsar elite.png" class="card-img-top" alt="product.title" />
         </a>
@@ -277,7 +277,7 @@ ASUS® TUF GAMING Z690-PLUS WIFI D4
       </div>
     </div>
     <div class="col hp">
-      <div class="card h-100 shadow-sm">
+      <div class="card h-100 shadow-sm" style="background-color: #0c0c0c">
         <a href="#">
           <img src="image_uploads/cobalt pro.png" class="card-img-top" alt="product.title" />
         </a>
@@ -320,7 +320,7 @@ ASUS® TUF GAMING Z690-PLUS WIFI D4
       </div>
     </div>
     <div class="col hp">
-      <div class="card h-100 shadow-sm">
+      <div class="card h-100 shadow-sm" style="background-color: #0c0c0c">
         <a href="#">
           <img src="image_uploads/cobalt ultra.png" class="card-img-top" alt="product.title" />
         </a>
@@ -365,7 +365,7 @@ ASUS® TUF GAMING Z690-PLUS WIFI D4
       </div>
     </div>
     <div class="col hp">
-      <div class="card h-100 shadow-sm">
+      <div class="card h-100 shadow-sm " style="background-color: #0c0c0c">
         <a href="#">
           <img src="image_uploads/pulsar ultra.png" class="card-img-top" alt="product.title" />
         </a>
@@ -419,7 +419,7 @@ ASUS® TUF GAMING Z690-PLUS WIFI D4
 <div class="container-fluid bg-trasparent my-4 p-3" style="position: relative">
   <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
     <div class="col hp">
-      <div class="card h-100 shadow-sm">
+      <div class="card h-100 shadow-sm" style="background-color: #0c0c0c">
         <a href="#">
           <img src="image_uploads/elimina17.png" class="card-img-top" alt="product.title" />
         </a>
@@ -471,7 +471,7 @@ Wireless Fitted as Standard</a>
       </div>
     </div>
     <div class="col hp">
-      <div class="card h-100 shadow-sm">
+      <div class="card h-100 shadow-sm" style="background-color: #0c0c0c">
         <a href="#">
           <img src="image_uploads/valeon-headline.png" class="card-img-top" alt="product.title" />
         </a>
@@ -523,7 +523,7 @@ Wireless Fitted as Standard</a>
       </div>
     </div>
     <div class="col hp">
-      <div class="card h-100 shadow-sm">
+      <div class="card h-100 shadow-sm" style="background-color: #0c0c0c">
         <a href="#">
           <img src="image_uploads/1.png" class="card-img-top" alt="product.title" />
         </a>
@@ -573,7 +573,7 @@ Wireless Fitted as Standard
       </div>
     </div>
     <div class="col hp">
-      <div class="card h-100 shadow-sm">
+      <div class="card h-100 shadow-sm" style="background-color: #0c0c0c">
         <a href="#">
           <img src="image_uploads/2.png" class="card-img-top" alt="product.title" />
         </a>
@@ -634,7 +634,7 @@ Windows Hello</a>
 <div class="container-fluid bg-trasparent my-4 p-3" style="position: relative">
   <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
     <div class="col hp">
-      <div class="card h-100 shadow-sm">
+      <div class="card h-100 shadow-sm" style="background-color: #0c0c0c">
         <a href="#">
           <img src="image_uploads/3.png" class="card-img-top" alt="product.title" />
         </a>
@@ -690,7 +690,7 @@ McAfee LiveSafe 12 Month Subscription
       </div>
     </div>
     <div class="col hp">
-      <div class="card h-100 shadow-sm">
+      <div class="card h-100 shadow-sm" style="background-color: #0c0c0c">
         <a href="#">
           <img src="image_uploads/5.png" class="card-img-top" alt="product.title" />
         </a>
@@ -744,7 +744,7 @@ No Anti-virus Requested</a>
       </div>
     </div>
     <div class="col hp">
-      <div class="card h-100 shadow-sm">
+      <div class="card h-100 shadow-sm" style="background-color: #0c0c0c">
         <a href="#">
           <img src="image_uploads/6.png" class="card-img-top" alt="product.title" />
         </a>
@@ -799,7 +799,7 @@ Touch Pearl White</a>
       </div>
     </div>
     <div class="col hp">
-      <div class="card h-100 shadow-sm">
+      <div class="card h-100 shadow-sm" style="background-color: #0c0c0c">
         <a href="#">
           <img src="image_uploads/7.png" class="card-img-top" alt="product.title" />
         </a>
@@ -873,7 +873,7 @@ Storage
 <div class="container-fluid bg-trasparent my-4 p-3" style="position: relative">
   <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
     <div class="col hp">
-      <div class="card h-100 shadow-sm">
+      <div class="card h-100 shadow-sm" style="background-color: #0c0c0c">
         <a href="#">
           <img src="image_uploads/8.png" class="card-img-top" alt="product.title" />
         </a>
@@ -914,7 +914,7 @@ Chipset: NVIDIA</a>
       </div>
     </div>
     <div class="col hp">
-      <div class="card h-100 shadow-sm">
+      <div class="card h-100 shadow-sm" style="background-color: #0c0c0c">
         <a href="#">
           <img src="image_uploads/9.png" class="card-img-top" alt="product.title" />
         </a>
@@ -956,7 +956,7 @@ PCI Express x16 3.0</a>
       </div>
     </div>
     <div class="col hp">
-      <div class="card h-100 shadow-sm">
+      <div class="card h-100 shadow-sm" style="background-color: #0c0c0c">
         <a href="#">
           <img src="image_uploads/11.png" class="card-img-top" alt="product.title" />
         </a>
@@ -999,7 +999,7 @@ Backed by a lifetime manufacturers warranty</a>
       </div>
     </div>
     <div class="col hp">
-      <div class="card h-100 shadow-sm">
+      <div class="card h-100 shadow-sm" style="background-color: #0c0c0c">
         <a href="#">
           <img src="image_uploads/10.png" class="card-img-top" alt="product.title" />
         </a>
@@ -1083,6 +1083,5 @@ value="<?php echo $Product['categoryID']; ?>">
 </section>
 <?php
 include('includes/footer.php');
-
 ?>
 

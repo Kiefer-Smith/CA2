@@ -126,7 +126,7 @@ br {
 }
 
 :root {
-  --label-index: #020202;
+  --label-index: #000000;
 }
 
 .container-fluid {
@@ -148,7 +148,7 @@ br {
 }
 
 .card h5 a {
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
