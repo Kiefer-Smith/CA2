@@ -38,7 +38,7 @@ $statement3->execute();
 $Products = $statement3->fetchAll();
 $statement3->closeCursor();
 ?>
-<div class="container" style="background-color:#0c0c0c">
+<div class="container">
 <?php
 include('includes/header.php');
 ?>
@@ -59,7 +59,7 @@ include('includes/header.php');
         </div>
         <div class="card-body">
           <div class="clearfix mb-3">
-            <span class="float-start badge rounded-pill bg-success" style="background-color:red">€800</span>
+            <span class="float-start badge rounded-pill bg-success">€800</span>
  
             <span class="float-end"><a href="#" class="small text-muted text-uppercase aff-link">reviews</a></span>
           </div>
