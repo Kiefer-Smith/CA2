@@ -4,4 +4,4 @@ This is my PHP CRUD APP.
 
 [logo]: https://github.com/Kiefer-Smith/CA2/blob/main/image_uploads/logo.png  "Logo Title Text 2"
 
-[I'm an inline-style link](https://www.google.com)
+[Link to project site](https://mysql07.comp.dkit.ie/D00223514/CA2/CA2/index.php)
