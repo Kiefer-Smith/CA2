@@ -1,5 +1,5 @@
 # My PHP CRUD App-PC Station
-A starter project for DkIT students on the Server-Side module.
+This is my PHP CRUD APP.
 ### Instructions
 * Create a MySQL database called php-crud in PHP MyAdmin
 * Run the code in the sql-db.txt file in PHP MyAdmin
